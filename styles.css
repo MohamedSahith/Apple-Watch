@@ -1,0 +1,146 @@
+body {
+    border: 4px;
+    width: fit-content;
+    height: fit-content;
+    background-repeat: no-repeat;
+    }
+
+nav {
+position: absolute;
+width: 1039px;
+height: 36px;
+display: inline-block;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+color: #FFFFFF;
+top: 15px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 50px;
+    cursor: pointer;
+}
+
+ul {
+    width: 90%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 353px;
+}
+
+nav img {
+    width: 5%;
+    display: inline-block;
+    margin-left: 30px;
+    left: 15px;
+}
+
+h1 {
+    position: absolute;
+width: 680px;
+height: 258px;
+left: 207px;
+top: 139px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 86px;
+/* or 134% */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+
+div img {
+    position: absolute;
+width: 489px;
+height: 539px;
+left: 873px;
+top: 139px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    position: absolute;
+    width: 250px;
+    height: 70px;
+left: 207px;
+top: 570px;
+border-radius: 50px;
+}
+
+button:hover {
+    background-color: #6ADDCC;
+    color: #000;
+}
+
+.dot1 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 1396px;
+top: 320px;
+
+background: #F2D9D3;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+}
+
+.dot2 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 1396px;
+top: 360px;
+background: #434558;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+}
+
+.dot3 {
+    box-sizing: border-box;
+position: absolute;
+width: 20px;
+height: 20px;
+left: 1396px;
+top: 400px;
+background: #6ADDCC;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+}
+
+.active {
+    border: 2px solid #000;
+    transform: scale(1.2);
+}
+
+.container .dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background: white;
+}
+
+p {
+    text-shadow: #000;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script>
+        $(function() {
+  $('.dot1').hover(function(){
+    $("div img").attr("src","http://127.0.0.1:5500/images/3.png");
+    $(this).addClass("active");
+    $('.dot2, .dot3').removeClass("active");
+  });
+
+  $('.dot2').hover(function(){
+    $("div img").attr("src","http://127.0.0.1:5500/images/4.png");
+    $(this).addClass("active");
+    $('.dot1, .dot3').removeClass("active");
+  });
+
+  $('.dot3').hover(function(){
+    $("div img").attr("src","http://127.0.0.1:5500/images/5.png");
+    $(this).addClass("active");
+    $('.dot2, .dot1').removeClass("active");
+  });
+});
+    </script>
+</head>
+<body background="http://127.0.0.1:5500/images/bg2.png">
+    
+    <header>
+        <nav>
+            <img src="./images/Logo.png">
+            <ul>
+                <li>Mac</li>
+                <li>iphone</li>
+                <li>ipad</li>
+                <li>iwatch</li>
+                <li>Support</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        
+        <h1>The Perfect Moment <br>
+            Between Past And <br>
+            Future.
+        </h1>
+    <div class="img">
+        <img src="./images/3.png">
+    </div>
+
+            <button>BUY NOW</button>
+
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+            <div class="dot3"></div>
+
+    </section>
+</body>
+</html>
